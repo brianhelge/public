@@ -23,7 +23,7 @@
 					+ '<input type="radio" value="local.espn.com.ve" rel="qa.espn.com.ve" name="edition" style="display:none" id="venezuela" /> <label for="venezuela">Venezuela</label><br/>'
 					+ '<input type="radio" value="local.espn.com.co" rel="qa.espn.com.co" name="edition" style="display:none" id="columbia" /> <label for="columbia">Columbia</label><br/>'
 					+ '<input type="radio" value="local.espn.cl" rel="qa.espn.cl" name="edition" style="display:none" id="chile" /> <label for="chile">Chile</label><br/>'
-					+ '<input type="submit" value="Submit"/>'
+					+ '<input type="submit" value="Submit" style="margin-right:10px;"/>'
 					+ '<input id="edition-closeButton" type="button" value="Close"/>'
 				+ '</form>';
 		}
