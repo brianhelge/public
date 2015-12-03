@@ -46,7 +46,7 @@
 				url = window.location.href.replace(/.*\/\/[^\/]*/, '') || '/';
 
 				if (enviroVal === 'local'){
-					url = 'http://' + localVal + url;
+					url = 'http://' + localVal + ':8080' + url;
 				}
 				else{
 					url = 'http://' + qaVal + url;
