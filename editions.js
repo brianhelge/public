@@ -53,7 +53,7 @@
 			function searchAndGo() {
 				var localVal = $('input[name=edition]:checked', '#edition-searchForm').val(),
 					qaVal = $('input[name=edition]:checked', '#edition-searchForm').attr('rel'),
-					enviroVal = #('input[name=environment]:checked', '#edition-searchForm').val(),
+					enviroVal = $('input[name=environment]:checked', '#edition-searchForm').val(),
 					url = window.location.href.replace(/.*\/\/[^\/]*/, '') || '/';
 
 					if (qaVal === 'local'){
