@@ -17,7 +17,7 @@
 
 		function buildSearchForm() {
 			var locals = ['local.espn.go.com', 'local.espn.co.uk', 'local.espndeportes.com', 'local.espn.com.mx', 'local.espn.com.ar', 'local.espn.com.ve', 'local.espn.com.co', 'local.espn.com.cl'],
-				qas = ['espn-qa.go.com', 'qa.espn.co.uk', 'qa.espndeportes.com', 'qa.espn.com.mx', 'qa.espn.com.ar', 'qa.espn.com.ve', 'qa.espn.com.co', 'qa.espn.com.cl'],
+				qas = ['espn-qa.go.com', 'qa.espn.co.uk', 'qa.espndeportes.com', 'qa.espn.com.mx', 'qa.espn.com.ar', 'qa.espn.com.ve', 'qa.espn.com.co', 'qa.espn.cl'],
 				texts = ['ESPN', 'UK', 'Deportes', 'Mexico', 'Argentina', 'Venezuela', 'Columbia', 'Chile'],
 				stringbuilder = '';
 
