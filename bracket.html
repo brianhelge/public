@@ -137,41 +137,6 @@ body {font-family: 'Istok Web', sans-serif;background: url("http://picjumbo.com/
 
 }
 	</style>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-<script type="text/javascript">
-/*
-$(function(){
-	var width = $(window).width(),
-		magicWidth = 980,
-		initialSize = width <= magicWidth ? 'small' : 'big';
-	function moveColumns(size, initial){
-		if (size === 'small' || (size === 'big' && !initial)){
-			$('.split-two .round').each(
-				function(){
-					$(this).insertBefore($(this).siblings(':first'));
-				}
-			);
-		}
-	}	
-	$(window).on('resize', _.debounce(function(){
-		var newWidth = $(window).width();
-		if (newWidth !== width){
-			if (newWidth <= magicWidth && width > magicWidth){
-				// stacked breakpoint
-				moveColumns('small');
-			}
-			else if (newWidth > magicWidth && width <= magicWidth){
-				// non stacked
-				moveColumns('big');
-			}
-			width = newWidth;
-		}
-	}, 500));
-	$(window).on('load', moveColumns(initialSize, true));
-});
-*/
-</script>
 </head>
 <body>
 	<header class="hero">
